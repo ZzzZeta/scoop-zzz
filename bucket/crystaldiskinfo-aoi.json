@@ -9,7 +9,7 @@
         "64bit": {
             "shortcuts": [
                 [
-                    "DiskInfo64S.exe",
+                    "DiskInfo64A.exe",
                     "CrystalDiskInfo Aoi Edition"
                 ]
             ]
@@ -17,7 +17,7 @@
         "32bit": {
             "shortcuts": [
                 [
-                    "DiskInfo32S.exe",
+                    "DiskInfo32A.exe",
                     "CrystalDiskInfo Aoi Edition"
                 ]
             ]
