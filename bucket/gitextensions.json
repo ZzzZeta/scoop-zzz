@@ -1,0 +1,37 @@
+{
+    "version": "4.2.1",
+    "description": "A standalone UI tool for managing Git repositories",
+    "homepage": "https://gitextensions.github.io/",
+    "license": "GPL-3.0-or-later",
+    "url": "https://github.com/gitextensions/gitextensions/releases/download/v4.2.1/GitExtensions-Portable-4.2.1.17611-b0c0b2848.zip",
+    "hash": "372c9cef9b2b19c8bba9ea9424b9262f68edfbe61e4711d6d5f0f904462f871b",
+    "pre_install": [
+        "\"GitExtensions.settings\", \"WindowPositions.xml\" | ForEach-Object {",
+        "    if (!(Test-Path \"$persist_dir\\$_\")) { New-Item \"$dir\\$_\" | Out-Null }",
+        "}"
+    ],
+    "bin": [
+        "GitExtensions.exe",
+        [
+            "GitExtensions.exe",
+            "gitex"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "GitExtensions.exe",
+            "Git Extensions"
+        ]
+    ],
+    "persist": [
+        "GitExtensions.settings",
+        "WindowPositions.xml"
+    ],
+    "checkver": {
+        "github": "https://github.com/gitextensions/gitextensions",
+        "regex": "/v([\\d.]+)/GitExtensions-Portable-(?<ver>[\\d.]+)-(?<commit>\\w+)\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/gitextensions/gitextensions/releases/download/v$version/GitExtensions-Portable-$matchVer-$matchCommit.zip"
+    }
+}
