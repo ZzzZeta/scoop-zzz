@@ -1,0 +1,47 @@
+{
+    "version": "3.6.0",
+    "description": "An unofficial PTT Client",
+    "homepage": "https://www.ptt.cc/bbs/EZsoft/M.1546241396.A.D95.html",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://drive.google.com/uc?export=download&id=1UQeQW7hbc4lVaqOvBUPkkR2JEvwMox70#/dl.7z",
+            "hash": "f8e93a9fbd74fed096458ceb34ef5a38a5b038e8fbfa88f2a3c9c0bf54382aa0"
+        },
+        "32bit": {
+            "url": "https://drive.google.com/uc?export=download&id=1TCgSXy2bi-dKZft655WdK9BZOipKfN47#/dl.7z",
+            "hash": "ad7b2abd6ef27163393a95ae8e8998355283561fdad407b31230fe020fd55df6"
+        }
+    },
+    "extract_dir": "PTTStar",
+    "pre_install": [
+        "function Set-PersistItem($Path) { $Path | Where-Object { !(Test-Path \"$persist_dir\\$_\") } | ForEach-Object { New-Item \"$dir\\$_\" | Out-Null } }",
+        "Set-PersistItem \"black.txt\", \"black_title.txt\", \"bookmark.txt\", \"hot.txt\", \"hotboards.txt\", \"sPTT.ini\", \"track.txt\""
+    ],
+    "shortcuts": [
+        [
+            "PTTStar.exe",
+            "PTT Star"
+        ]
+    ],
+    "persist": [
+        "black.txt",
+        "black_title.txt",
+        "bookmark.txt",
+        "hot.txt",
+        "hotboards.txt",
+        "sPTT.ini",
+        "track.txt"
+    ],
+    "checkver": "\\[Latest Version\\] ([\\d.]+)",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://drive.google.com/uc?export=download&id=1UQeQW7hbc4lVaqOvBUPkkR2JEvwMox70#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://drive.google.com/uc?export=download&id=1TCgSXy2bi-dKZft655WdK9BZOipKfN47#/dl.7z"
+            }
+        }
+    }
+}
