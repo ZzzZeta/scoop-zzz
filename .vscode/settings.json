@@ -5,6 +5,9 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true
+    },
     "editor.formatOnSave": true,
     "files.exclude": {
         "**/.DS_Store": true,
@@ -30,6 +33,7 @@
         "version",
         "description",
         "homepage",
+        "identifier",
         "license",
         "notes",
         "depends",
@@ -52,6 +56,9 @@
         "uninstaller",
         "post_uninstall",
         "checkver",
+        "github",
+        "script",
+        "regex",
         "autoupdate"
     ],
     "sortJSON.orderUnderride": [
