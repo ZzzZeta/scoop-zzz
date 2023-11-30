@@ -1,0 +1,15 @@
+{
+    "version": "2.14",
+    "description": "Ultimate software gives you elite control over every piece of your controller",
+    "homepage": "https://app.8bitdo.com/",
+    "license": "Proprietary",
+    "url": "https://download.8bitdo.com/Ultimate-Software/8BitDo-Ultimate-Software-for-Windows.zip",
+    "hash": "1dd64d00f1537950e18cae6ba3e2302b53cd7ea2f82c618215a8034e365221c6",
+    "extract_dir": "8BitDo-Ultimate-Software-for-Windows",
+    "shortcuts": [
+        [
+            "8BitDo Ultimate Software.exe",
+            "8BitDo Ultimate Software"
+        ]
+    ]
+}
