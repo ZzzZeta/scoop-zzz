@@ -17,9 +17,6 @@
         "ensure \"$persist_dir\" | Out-Null",
         "Copy-Item \"$persist_dir\\BCUninstaller.settings\" \"$dir\" -ErrorAction 'SilentlyContinue'"
     ],
-    "uninstaller": {
-        "script": "Copy-Item \"$dir\\BCUninstaller.settings\" \"$persist_dir\" -ErrorAction 'SilentlyContinue' -Force"
-    },
     "bin": [
         "BCU-console.exe",
         "BCUninstaller.exe",
@@ -34,6 +31,9 @@
             "Bulk Crap Uninstaller"
         ]
     ],
+    "uninstaller": {
+        "script": "Copy-Item \"$dir\\BCUninstaller.settings\" \"$persist_dir\" -ErrorAction 'SilentlyContinue' -Force"
+    },
     "checkver": {
         "github": "https://github.com/Klocman/Bulk-Crap-Uninstaller"
     },
