@@ -30,7 +30,7 @@
     ],
     "checkver": {
         "url": "https://sourceforge.net/p/crystaldiskinfo/activity/feed",
-        "regex": "https://sourceforge.net/projects/crystaldiskinfo/files/([\\w.]+)/"
+        "regex": "https://sourceforge\\.net/projects/crystaldiskinfo/files/([\\w.]+)/"
     },
     "autoupdate": {
         "url": "https://nchc.dl.sourceforge.net/project/crystaldiskinfo/$version/CrystalDiskInfo$underscoreVersionShizuku.zip"
