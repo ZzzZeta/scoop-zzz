@@ -1,7 +1,11 @@
 {
-    "[powershell]": {
-        "editor.formatOnSave": true
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
     },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "editor.formatOnSave": true,
     "files.exclude": {
         "**/.DS_Store": true,
         "**/.git": true,
@@ -21,5 +25,37 @@
     "powershell.codeFormatting.alignPropertyValuePairs": true,
     "powershell.codeFormatting.ignoreOneLineBlock": true,
     "powershell.codeFormatting.preset": "OTBS",
-    "powershell.scriptAnalysis.settingsPath": "PSScriptAnalyzerSettings.psd1"
+    "powershell.scriptAnalysis.settingsPath": "PSScriptAnalyzerSettings.psd1",
+    "sortJSON.orderOverride": [
+        "version",
+        "description",
+        "homepage",
+        "license",
+        "notes",
+        "depends",
+        "suggest",
+        "url",
+        "hash",
+        "architecture",
+        "extract_dir",
+        "extract_to",
+        "pre_install",
+        "innosetup",
+        "installer",
+        "post_install",
+        "env_add_path",
+        "env_set",
+        "bin",
+        "shortcuts",
+        "persist",
+        "pre_uninstall",
+        "uninstaller",
+        "post_uninstall",
+        "checkver",
+        "autoupdate"
+    ],
+    "sortJSON.orderUnderride": [
+        "64bit",
+        "32bit"
+    ]
 }
