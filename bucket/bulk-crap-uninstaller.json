@@ -3,16 +3,9 @@
     "description": "Bulk program uninstaller with advanced automation",
     "homepage": "https://www.bcuninstaller.com/",
     "license": "Apache-2.0",
-    "url": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v5.7/BCUninstaller_5.7_portable.zip",
-    "hash": "sha1:bb7002d4e337dce9e989eb0ce31208f72a0ae7dc",
-    "architecture": {
-        "64bit": {
-            "extract_dir": "win-x64"
-        },
-        "32bit": {
-            "extract_dir": "win-x86"
-        }
-    },
+    "url": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v5.7/BCUninstaller_5.7_net6.0-windows10.0.18362.0.zip",
+    "hash": "sha1:ba4fcf687077ae92ce4ca530b038f39d6f1a21b3",
+    "extract_dir": "net6.0-windows10.0.18362.0",
     "pre_install": [
         "ensure \"$persist_dir\" | Out-Null",
         "Copy-Item \"$persist_dir\\BCUninstaller.settings\" \"$dir\" -ErrorAction 'SilentlyContinue'"
@@ -35,13 +28,16 @@
         "script": "Copy-Item \"$dir\\BCUninstaller.settings\" \"$persist_dir\" -ErrorAction 'SilentlyContinue' -Force"
     },
     "checkver": {
-        "github": "https://github.com/Klocman/Bulk-Crap-Uninstaller"
+        "url": "https://api.github.com/repositories/64677873/releases/latest",
+        "jsonpath": "$.assets..browser_download_url",
+        "regex": "BCUninstaller_([0-9.]+)_net(?<dotnetver>[0-9.]+)-windows(?<winver>[0-9.]+).zip"
     },
     "autoupdate": {
-        "url": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v$version/BCUninstaller_$version_portable.zip",
+        "url": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v$version/BCUninstaller_$version_net$matchDotnetver-windows$matchWinver.zip",
         "hash": {
             "url": "https://sourceforge.net/projects/bulk-crap-uninstaller/files/v$version/",
             "regex": "$basename.*?\"sha1\":\"$sha1"
-        }
+        },
+        "extract_dir": "net$matchDotnetver-windows$matchWinver"
     }
 }
