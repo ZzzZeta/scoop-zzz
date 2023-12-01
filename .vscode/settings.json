@@ -58,6 +58,7 @@
         "checkver",
         "github",
         "script",
+        "jsonpath",
         "regex",
         "autoupdate"
     ],
