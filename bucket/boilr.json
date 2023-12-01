@@ -12,8 +12,9 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/PhilipK/BoilR/releases/latest",
-        "regex": "/PhilipK/BoilR/tree/v\\.([\\d.]+)"
+        "url": "https://api.github.com/repositories/403282138/releases/latest",
+        "jsonpath": "$.assets..browser_download_url",
+        "regex": "/v\\.([\\d.]+)/windows_BoilR\\.exe"
     },
     "autoupdate": {
         "url": "https://github.com/PhilipK/BoilR/releases/download/v.$version/windows_BoilR.exe"
