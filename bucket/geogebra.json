@@ -1,0 +1,56 @@
+{
+    "version": "6.0.814.0",
+    "description": "A dynamic mathematics software for education that brings together geometry, algebra, spreadsheets, graphing, statistics and calculus.",
+    "homepage": "https://www.geogebra.org/",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.geogebra.org/license"
+    },
+    "url": "https://download.geogebra.org/installers/6.0/GeoGebra-Windows-Portable-6-0-814-0.zip",
+    "hash": "51eb1ab15e57bc475e5b246e4ae10ea0ebbc21b1b6ac22ba6b04afac261f68a0",
+    "bin": [
+        [
+            "GeoGebra.exe",
+            "geogebra"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "GeoGebra.exe",
+            "GeoGebra"
+        ],
+        [
+            "GeoGebraCalculator.exe",
+            "GeoGebra Calculator"
+        ],
+        [
+            "GeoGebraCAS.exe",
+            "GeoGebra CAS"
+        ],
+        [
+            "GeoGebraGeometry.exe",
+            "GeoGebra Geometry"
+        ],
+        [
+            "GeoGebraGraphing.exe",
+            "GeoGebra Graphing"
+        ]
+    ],
+    "checkver": {
+        "script": [
+            "try {",
+            "    $res = Invoke-WebRequest -Uri https://download.geogebra.org/package/win-port6 -Method Head -MaximumRedirection 0 -ErrorAction Ignore",
+            "} catch [Microsoft.PowerShell.Commands.HttpResponseException] {",
+            "    $releaseUrl = $_.Exception.Response.Headers.Location.ToString()",
+            "}",
+            "$releaseUrl = if ($null -eq $releaseUrl) { $res.Headers['Location'] } else { $releaseUrl }",
+            "$releaseUrl"
+        ],
+        "regex": "\\d-(\\d+)-(\\d+)-(\\d+)",
+        "replace": "6.${1}.${2}.${3}"
+    },
+    "autoupdate": {
+        "url": "https://download.geogebra.org/installers/$majorVersion.$minorVersion/GeoGebra-Windows-Portable-$dashVersion.zip",
+        "extract_dir": "GeoGebra $version"
+    }
+}
