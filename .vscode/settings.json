@@ -6,7 +6,7 @@
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "editor.codeActionsOnSave": {
-        "source.fixAll": true
+        "source.fixAll": "explicit"
     },
     "editor.formatOnSave": true,
     "files.exclude": {
