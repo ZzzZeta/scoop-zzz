@@ -9,6 +9,13 @@
             "hash": "9ce90494ad5fe94bbc2c88a11e58685933c335176cca2462c1ebdc4e22d901b3"
         }
     },
+    "bin": [
+        [
+            "windows_BoilR.exe",
+            "boilr",
+            "--no-ui"
+        ]
+    ],
     "shortcuts": [
         [
             "windows_BoilR.exe",
