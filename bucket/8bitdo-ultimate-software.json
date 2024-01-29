@@ -11,5 +11,20 @@
             "8BitDo Ultimate Software.exe",
             "8BitDo Ultimate Software"
         ]
-    ]
+    ],
+    "checkver": {
+        "script": [
+            "$headers = @{",
+            "    'Version' = 1",
+            "    'Type'    = 2",
+            "}",
+            "$res = Invoke-WebRequest -Uri http://dl.8bitdo.com:8080/firmware/loadNewToolUpdateVersion -Method Post -Headers $headers -MaximumRedirection 0 -ErrorAction Ignore",
+            "$res.Content"
+        ],
+        "jsonpath": "$.list[0].fileName",
+        "regex": "8BitDoUltimateSoftwareV([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://download.8bitdo.com/Ultimate-Software/8BitDo-Ultimate-Software-for-Windows.zip"
+    }
 }
