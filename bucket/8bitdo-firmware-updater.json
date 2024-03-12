@@ -5,7 +5,7 @@
     "license": "Proprietary",
     "url": "http://dl.8bitdo.com:8080//firmwareFile/upload//eb1568c2-eb9c-46b6-94a9-8e8e52a87dbe.zip",
     "hash": "4ed8b4084eef98da6eda6b2b7476ccbfeabb0d760d165eb65eb3b17bc99f8e40",
-    "extract_dir": "8BitDo_Firmware_Updater_WinV2.47",
+    "extract_dir": "8BitDoFirmwareUpdater_V2.47",
     "shortcuts": [
         [
             "8BitDo Firmware Updater.exe",
