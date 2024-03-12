@@ -22,10 +22,10 @@
             "$res.Content"
         ],
         "jsonpath": "$.list[0]",
-        "regex": "8BitDoFirmwareUpdater_V([\\d.]+)[\\s\\S]*/var/lib/tomcat9/webapps(?<path>[\\w/.-]+)\""
+        "regex": "8BitDoFirmwareUpdater_V([\\d.]+)[\\s\\S]*/var/lib/tomcat9/webapps//(?<path>[\\w/.-]+)\""
     },
     "autoupdate": {
-        "url": "http://dl.8bitdo.com:8080$matchPath",
+        "url": "http://dl.8bitdo.com:8080/$matchPath",
         "extract_dir": "8BitDoFirmwareUpdater_V$version"
     }
 }
