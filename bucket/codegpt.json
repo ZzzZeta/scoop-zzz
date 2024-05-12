@@ -1,15 +1,15 @@
 {
-    "version": "0.11.2",
+    "version": "0.12.0",
     "description": "A CLI written in Go language that writes git commit messages for you using ChatGPT AI",
     "homepage": "https://github.com/appleboy/CodeGPT",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/appleboy/CodeGPT/releases/download/v0.11.2/CodeGPT-0.11.2-windows-amd64.exe",
-            "hash": "299183280450ad20b87f912c85e13a0c6538ca18ab68bf933c059b76f1c25573",
+            "url": "https://github.com/appleboy/CodeGPT/releases/download/v0.12.0/CodeGPT-0.12.0-windows-amd64.exe",
+            "hash": "bdf73581a9440c025434f723f4407d3e248b9dc1f07bcefed3f2e3653ecd5857",
             "bin": [
                 [
-                    "CodeGPT-0.11.2-windows-amd64.exe",
+                    "CodeGPT-0.12.0-windows-amd64.exe",
                     "codegpt"
                 ]
             ]
