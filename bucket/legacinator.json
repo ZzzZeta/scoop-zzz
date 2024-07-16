@@ -1,10 +1,10 @@
 {
-    "version": "1.12.0",
+    "version": "1.12.1",
     "description": "The Legacinator is a simple self-contained .NET 4.8 application that has one task: it scans your machine for traces of known legacy (outdated, potentially faulty) device drivers (leftovers from ScpToolkit, outdated ViGEmBus copies etc.) and provides a solution to the user",
     "homepage": "https://github.com/nefarius/Legacinator",
     "license": "BSD-3-Clause",
-    "url": "https://github.com/nefarius/Legacinator/releases/download/v1.12.0/Legacinator.exe",
-    "hash": "8eca0188b957acbc16317ce85c4d70141e42c2a6623234761ae1e57324da7fe8",
+    "url": "https://github.com/nefarius/Legacinator/releases/download/v1.12.1/Legacinator.exe",
+    "hash": "72f744827382f41379b3d68138ebae27a32fff8d4b2110846f013f17624ae5a3",
     "shortcuts": [
         [
             "Legacinator.exe",
