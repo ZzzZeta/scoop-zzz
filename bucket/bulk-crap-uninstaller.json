@@ -1,11 +1,11 @@
 {
-    "version": "5.8.1",
+    "version": "5.8.2",
     "description": "Bulk program uninstaller with advanced automation",
     "homepage": "https://www.bcuninstaller.com/",
     "license": "Apache-2.0",
-    "url": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v5.8.1/BCUninstaller_5.8.1_net6.0-windows10.0.18362.0.zip",
-    "hash": "sha1:ca269a2affcd46e5c30e94d76937da9cdabe3314",
-    "extract_dir": "publish-AnyCPU-net6.0",
+    "url": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v5.8.2/BCUninstaller_5.8.2_net6.0-windows10.0.18362.0.zip",
+    "hash": "sha1:2af1e82afdc791f8e0f4525a5d5d96569b58fea4",
+    "extract_dir": "net6.0-windows10.0.18362.0",
     "pre_install": [
         "ensure \"$persist_dir\" | Out-Null",
         "Copy-Item \"$persist_dir\\BCUninstaller.settings\" \"$dir\" -ErrorAction 'SilentlyContinue'"
