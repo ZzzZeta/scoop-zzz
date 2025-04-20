@@ -12,7 +12,8 @@
             "hash": [
                 "0d10907898972451c060cb4381b638efa2affdd5a70d0337e1ceecb0fc4ea50c",
                 "02b8314d369d60bb0002da67f3820df1225efc53db3095b2d6ed2c7e957cae0d"
-            ]
+            ],
+            "extract_dir": "mpv-upscale-2x_animejanai-v3.2.0"
         }
     },
     "shortcuts": [
@@ -32,7 +33,8 @@
                 "url": [
                     "https://github.com/the-database/mpv-upscale-2x_animejanai/releases/download/$version/mpv-upscale-2x_animejanai-full-package-$version.7z.001",
                     "https://github.com/the-database/mpv-upscale-2x_animejanai/releases/download/$version/mpv-upscale-2x_animejanai-full-package-$version.7z.002"
-                ]
+                ],
+                "extract_dir": "mpv-upscale-2x_animejanai-v$version"
             }
         }
     }
