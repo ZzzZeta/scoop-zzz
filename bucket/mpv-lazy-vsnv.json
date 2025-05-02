@@ -2,7 +2,10 @@
     "version": "20250405",
     "description": "mpv player with optional VapourSynth & NVIDIA CUDA filter packs",
     "homepage": "https://github.com/hooke007/MPV_lazy",
-    "license": "MIT",
+    "license": {
+        "identifier": "Unknown",
+        "url": "https://github.com/hooke007/MPV_lazy/blob/main/LICENSE.MD"
+    },
     "architecture": {
         "64bit": {
             "url": [
