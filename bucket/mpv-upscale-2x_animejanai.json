@@ -19,7 +19,7 @@
     "shortcuts": [
         [
             "mpvnet.exe",
-            "mpv.net"
+            "mpv-upscale-2x_animejanai"
         ]
     ],
     "checkver": {
