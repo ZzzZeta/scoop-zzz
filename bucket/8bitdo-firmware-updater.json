@@ -1,11 +1,11 @@
 {
-    "version": "2.48",
+    "version": "2.49",
     "description": "Firmware updater for 8BitDo hardware",
     "homepage": "https://support.8bitdo.com/firmware-updater.html",
     "license": "Proprietary",
-    "url": "http://dl.8bitdo.com:8080/firmwareFile/upload//f58bb106-c495-4baf-84f4-d8324d65dd54.zip",
-    "hash": "0b3ed363622024b5eea442719ce789f816b834fac3adf338f4c57fe49a07ba45",
-    "extract_dir": "8BitDoFirmwareUpdater_V2.48",
+    "url": "http://dl.8bitdo.com:8080/firmwareFile/upload//12bf3db0-7e5f-494a-9562-78b5cfd60a3a.zip",
+    "hash": "7ccf9afc2444845364bffcc32a84bcb5093a550f73d3fb1569a88e4a04142922",
+    "extract_dir": "8BitDoFirmwareUpdater_V2.49",
     "shortcuts": [
         [
             "8BitDo Firmware Updater.exe",
