@@ -5,8 +5,8 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/BrianLima/UWPHook/releases/download/2.14.3/UWPHook.exe",
-            "hash": "ba03eb03eb98e186df264274582554f82636fa28a0c302debbfff5fd3070eea8"
+            "url": "https://github.com/BrianLima/UWPHook/releases/download/2.14.3/UWPHook.zip",
+            "hash": "0c542cf2b2753b618b96d4050c08db83317826993744678f36a50745b847b1fb"
         }
     },
     "shortcuts": [
@@ -19,7 +19,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/BrianLima/UWPHook/releases/download/$version/UWPHook.exe"
+                "url": "https://github.com/BrianLima/UWPHook/releases/download/$version/UWPHook.zip"
             }
         }
     }
