@@ -1,0 +1,26 @@
+{
+    "version": "2.14.3",
+    "description": "Add Windows Store and UWP games to Steam",
+    "homepage": "https://github.com/BrianLima/UWPHook",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/BrianLima/UWPHook/releases/download/2.14.3/UWPHook.exe",
+            "hash": "ba03eb03eb98e186df264274582554f82636fa28a0c302debbfff5fd3070eea8"
+        }
+    },
+    "shortcuts": [
+        [
+            "UWPHook.exe",
+            "UWPHook"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/BrianLima/UWPHook/releases/download/$version/UWPHook.exe"
+            }
+        }
+    }
+}
