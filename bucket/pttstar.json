@@ -6,11 +6,11 @@
     "architecture": {
         "64bit": {
             "url": "https://drive.google.com/uc?export=download&id=1UQeQW7hbc4lVaqOvBUPkkR2JEvwMox70#/dl.7z",
-            "hash": "53f69c108b1e438879ea7197fa5da2bd2c219764d26cd19a6b1f004b791f98a3"
+            "hash": "4e156aee8d18e5a169e3a6b41de2a265e7c8d01259afec7d3eeee81f84222742"
         },
         "32bit": {
             "url": "https://drive.google.com/uc?export=download&id=1TCgSXy2bi-dKZft655WdK9BZOipKfN47#/dl.7z",
-            "hash": "65dbf0b66fea574e9acdca99555a18994ae323ad3f3538a195f721f608655420"
+            "hash": "390b3b1b0947c9fc89018737adfb0b173b22cc37ce0d8c41c28e18cdd306f883"
         }
     },
     "extract_dir": "PTTStar",
