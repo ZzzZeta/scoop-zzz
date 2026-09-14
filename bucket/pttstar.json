@@ -1,16 +1,16 @@
 {
-    "version": "3.9.1",
+    "version": "3.9.2",
     "description": "An unofficial PTT Client",
     "homepage": "https://www.ptt.cc/bbs/EZsoft/M.1546241396.A.D95.html",
     "license": "Freeware",
     "architecture": {
         "64bit": {
             "url": "https://drive.google.com/uc?export=download&id=1UQeQW7hbc4lVaqOvBUPkkR2JEvwMox70#/dl.7z",
-            "hash": "4e156aee8d18e5a169e3a6b41de2a265e7c8d01259afec7d3eeee81f84222742"
+            "hash": "472d0196ba4ae22fb2020cae11f00fa437268b84298c546f66209327c56e6292"
         },
         "32bit": {
             "url": "https://drive.google.com/uc?export=download&id=1TCgSXy2bi-dKZft655WdK9BZOipKfN47#/dl.7z",
-            "hash": "390b3b1b0947c9fc89018737adfb0b173b22cc37ce0d8c41c28e18cdd306f883"
+            "hash": "19978193f915e8570d98bd35c09656ca2e0dcafa4932b6a360b03b31970d86da"
         }
     },
     "extract_dir": "PTTStar",
