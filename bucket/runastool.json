@@ -1,5 +1,5 @@
 {
-    "version": "1.6",
+    "version": "1.7",
     "description": "A tool allows standard users to run a specific program with administrator privileges without the need to enter the administrator password",
     "homepage": "https://www.sordum.org/8727/runastool-v1-4/",
     "license": {
@@ -7,7 +7,7 @@
         "url": "https://www.sordum.org/eula/"
     },
     "url": "https://www.sordum.org/files/runastool/RunAsTool.zip",
-    "hash": "37bf05070347cf462a734b3f3b0796b07eab1feefd089aeac6991d4282ae1480",
+    "hash": "e345463358c8575d705553c565aa6fe26e0c92973a69c99cfefe2e64cb81612a",
     "architecture": {
         "64bit": {
             "bin": [
