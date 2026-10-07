@@ -1,5 +1,5 @@
 {
-    "version": "4.0.0 Beta 2",
+    "version": "4.0.0-Beta2",
     "description": "An unofficial PTT Client",
     "homepage": "https://www.ptt.cc/bbs/EZsoft/M.1546241396.A.D95.html",
     "license": "Freeware",
@@ -33,7 +33,10 @@
         "sPTT.ini",
         "track.txt"
     ],
-    "checkver": "\\[Latest Version\\] (.+) \\(",
+    "checkver": {
+        "regex": "\\[Latest Version\\] ([\\d.]+) (Beta|Alpha|RC)\\s*(\\d+) \\(",
+        "replace": "${1}-${2}${3}"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
