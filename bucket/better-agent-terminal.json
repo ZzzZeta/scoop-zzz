@@ -5,10 +5,11 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tony1223/better-agent-terminal/releases/download/v3.2.15/BetterAgentTerminal.Setup.3.2.15.lightweight.exe",
+            "url": "https://github.com/tony1223/better-agent-terminal/releases/download/v3.2.15/BetterAgentTerminal.Setup.3.2.15.lightweight.exe#/dl.7z",
             "hash": "ef13caf8ac8b6043e963b9db27975c1b77753b9a243f8fa7eaa71ecc6d0336d0"
         }
     },
+    "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\uninstall.exe\" -Force -Recurse -ErrorAction SilentlyContinue",
     "shortcuts": [
         [
             "BetterAgentTerminal.exe",
@@ -19,7 +20,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/tony1223/better-agent-terminal/releases/download/v$version/BetterAgentTerminal.Setup.$version.lightweight.exe"
+                "url": "https://github.com/tony1223/better-agent-terminal/releases/download/v$version/BetterAgentTerminal.Setup.$version.lightweight.exe#/dl.7z"
             }
         }
     }
