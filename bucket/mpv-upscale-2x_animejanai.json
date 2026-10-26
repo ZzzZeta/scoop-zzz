@@ -1,13 +1,13 @@
 {
-    "version": "3.8.0",
+    "version": "3.8.1",
     "description": "Real-time anime upscaling to 4k in mpv with Real-ESRGAN compact models",
     "homepage": "https://github.com/the-database/mpv-AnimeJaNai",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/the-database/mpv-AnimeJaNai/releases/download/3.8.0/mpv-upscale-2x_animejanai-full-package-3.8.0.7z.001",
-            "hash": "941a43ebb4a3242bd69d36ce30efd6c467228e328783b5f5b5939d234067deff",
-            "extract_dir": "mpv-upscale-2x_animejanai-v3.8.0"
+            "url": "https://github.com/the-database/mpv-AnimeJaNai/releases/download/3.8.1/mpv-upscale-2x_animejanai-full-package-3.8.1.7z.001",
+            "hash": "1811a0efcf56aa2287ce255a869a1abd91634779ed0b7a0ea888662c286e97fa",
+            "extract_dir": "mpv-upscale-2x_animejanai-v3.8.1"
         }
     },
     "shortcuts": [
