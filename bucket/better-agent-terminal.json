@@ -1,12 +1,12 @@
 {
-    "version": "3.2.16",
+    "version": "3.2.17",
     "description": "Multi-workspace terminal aggregator for Codex and other AI coding agents",
     "homepage": "https://github.com/tony1223/better-agent-terminal",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/tony1223/better-agent-terminal/releases/download/v3.2.16/BetterAgentTerminal.Setup.3.2.16.lightweight.exe#/dl.7z",
-            "hash": "bc8cf6455eebc0b53c9dc0a73085b187f0704da9f098ff4937eea971e27ef88f"
+            "url": "https://github.com/tony1223/better-agent-terminal/releases/download/v3.2.17/BetterAgentTerminal.Setup.3.2.17.lightweight.exe#/dl.7z",
+            "hash": "4f5981e6ba94753302b06a318e39c99c765088822409fb33a730b7d8a043f5c8"
         }
     },
     "pre_install": "Remove-Item \"$dir\\`$*\", \"$dir\\uninstall.exe\" -Force -Recurse -ErrorAction SilentlyContinue",
