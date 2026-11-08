@@ -1,12 +1,12 @@
 {
-    "version": "1.0.37",
+    "version": "1.0.38",
     "description": "Local Chinese speech-to-text dictation app",
     "homepage": "https://github.com/Jeffrey0117/SpeakSlow",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Jeffrey0117/SpeakSlow/releases/download/v1.0.37/SpeakSlow-Setup.exe#/dl.7z",
-            "hash": "71a2e736fd5f6d4dc4083059c1ca28f27f35a304bedb3d27187b5ca9fdc8dcc9"
+            "url": "https://github.com/Jeffrey0117/SpeakSlow/releases/download/v1.0.38/SpeakSlow-Setup.exe#/dl.7z",
+            "hash": "6e9915853fcaf3a30799932caf717ad394ed45a0ef2ec188c78147801befa3c0"
         }
     },
     "pre_install": [
