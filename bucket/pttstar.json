@@ -1,15 +1,15 @@
 {
-    "version": "4.0.0-beta.12",
+    "version": "4.0.0-beta.13",
     "description": "An unofficial PTT Client",
     "homepage": "https://www.ptt.cc/bbs/EZsoft/M.1546241396.A.D95.html",
     "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://download.ptt-star.com/PTTStar-4.0.0-beta.12.zip",
-            "hash": "01116e500e230a9838515907bd9af46ab1ba72de884650f1be95b1c30531cf05"
+            "url": "https://download.ptt-star.com/PTTStar-4.0.0-beta.13.zip",
+            "hash": "bc2bed473cfad0a10d459a9e3a3cdb8068949f5fefcb426ef032976e964ffe12"
         }
     },
-    "extract_dir": "PTTStar-4.0.0-beta.12",
+    "extract_dir": "PTTStar-4.0.0-beta.13",
     "pre_install": [
         "if (!(Test-Path \"$persist_dir\\sPTT.ini\") -and !(Test-Path \"$dir\\sPTT.ini\")) {",
         "    Set-Content -LiteralPath \"$dir\\sPTT.ini\" -Value '[Basic]', 'AutoCheckUpdate=0' -Encoding UTF8 -ErrorAction Stop",
